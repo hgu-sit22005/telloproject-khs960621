@@ -15,6 +15,15 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../bin)
 # - This is where you add the source files
 add_library(TelloPro MODULE src/takeoff.cpp
 							src/land.cpp
+							src/up.cpp
+							src/down.cpp
+							src/left.cpp
+							src/right.cpp
+							src/forward.cpp
+							src/back.cpp
+							src/cw.cpp
+							src/ccw.cpp
+							src/flip.cpp
 							src/python_interface.cpp)
 
 # include directories
